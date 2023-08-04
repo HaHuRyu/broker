@@ -9,8 +9,6 @@
 <body>
   <c:set var="list" value="${List}"/>
 
-
-   ${list.user_nick}
     <c:forEach items="#{list}" var="dto">
 
         ${dto.user_nick}
