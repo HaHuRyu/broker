@@ -17,5 +17,7 @@
 -->
 
 <mapper namespace="UserDTO">
-
+    <select id="all" resultType="String">
+        select user_nick from mediation.user
+    </select>
 </mapper>
