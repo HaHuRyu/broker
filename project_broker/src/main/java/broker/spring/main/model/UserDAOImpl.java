@@ -14,6 +14,7 @@ public class UserDAOImpl implements UserDAO {
 
     @Override
     public List<UserDTO> userList() {
+
         return sqlSession.selectList("all");
     };
 

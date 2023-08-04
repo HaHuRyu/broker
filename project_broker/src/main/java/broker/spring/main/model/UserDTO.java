@@ -14,5 +14,5 @@ public class UserDTO {
     private int user_phone;
     private String user_birth;
     private String approve;
-    private int poinr;
+    private int point;
 }

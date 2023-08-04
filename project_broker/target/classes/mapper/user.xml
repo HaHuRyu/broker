@@ -17,5 +17,7 @@
 -->
 
 <mapper namespace="UserDTO">
-
+    <select id="all" resultType="UserDTO">
+        select * from mediation.user
+    </select>
 </mapper>
